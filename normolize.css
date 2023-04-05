@@ -1,0 +1,204 @@
+@media screen and (max-width:1280px) { 
+
+}
+@media screen and (max-width:1024px) {
+    
+}
+@media screen and (max-width:992px) {
+
+}
+@media screen and (max-width:768px) {
+    :root {
+        --a-color:#000;
+        --line-color:#68B738;
+        --menu-txt-size:18px;
+        --title-txt-size:36px;
+        --subtitle-txt-size:20px;
+    }
+    button a {
+        color: #fff;
+    }
+    .bg-cat {
+        display: none;
+    }
+    .obesity , .info {
+        align-items: center;
+        justify-content: center;
+    }
+    .part {
+        margin-left: 40px;
+    }
+    .fit , .fat {
+        width: 100%;
+        min-width: 300px;
+    }
+    .logon-n-text {
+        margin-bottom: 12px;
+    }
+    .live-example {
+        padding: 4% 4%;
+        align-items: center;
+        justify-content: center;
+    }
+    .l-text {
+        width: 50%;
+    }
+    .l-text p {
+        font-size: 14px;
+    }
+    .l-img {
+        width: 50%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .weight-by-day {
+        display: flex;
+        gap: 21px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .number {
+        width: 50%;
+        height: 60px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .number h1 {
+        font-size: 20px;
+    }
+    .l-img input {
+        margin: 0;
+    }
+}
+@media screen and (max-width:512px) {
+    :root {
+        --a-color:#fff;
+        --line-color:#F06351;
+        --btn-color:#F06351;
+        --title-txt-size:30px;
+        --menu-txt-size:14px;
+        --subtitle-txt-size:18px;
+    }
+    nav {
+        padding: 0;
+    }
+    .navbar {
+        display: none;
+    }
+    .mobile-menu {
+        width: 100%;
+        padding: 0 2%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+    }
+    .poster {
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+    .p-text {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .p-img {
+        width: 100%;
+    }.obesity , .info {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .obesity , .info {
+        justify-content: center;
+        align-items: center;
+    }
+    .fit , .fat {
+        width: 100%;
+        min-width: 300px;
+        height: 250px;
+    }
+    .fit h3 , .fat h3 {
+        font-size: 14px;
+    }
+    .icon-text {
+        width: 100%;
+        display: flex;
+        gap: 26px;
+        justify-content: flex-start;
+    }
+    .live-example {
+        padding: 4% 0;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .l-text {
+        width: 60%;
+    }
+    .l-text .comment{
+        margin-bottom: 50px;
+        color: rgba(68, 68, 68, 1);
+    }
+    .l-img {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .l-img input {
+        width: 70%;
+    }
+    .weight-by-day {
+        display: flex;
+        gap: 21px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .number {
+        width: 50%;
+        height: 60px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .number h1 {
+        font-size: 20px;
+    }
+    .l-text h3 {
+        font-size: 16px;
+    }
+    .foot {
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:425px) {
+
+}
+@media screen and (max-width:375px) {
+
+}
+@media screen and (max-width:320px) {
+    .number {
+        height: 40px;
+    }
+    .number h1 {
+        font-size: 18px;
+    }
+    .number p {
+        font-size: 10px;
+    }
+    .l-text h3 {
+        font-size: 12px;
+    }
+}
